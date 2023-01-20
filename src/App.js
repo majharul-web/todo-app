@@ -1,9 +1,13 @@
 import React from "react";
+import Home from "./pages/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
     <div>
-      <h3>todo-app</h3>
+      <Home />
+      <Toaster position='bottom-right' />
     </div>
   );
 };
