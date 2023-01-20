@@ -1,0 +1,15 @@
+.app {
+  margin: 0 30px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+.tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: #0d6efd;
+}
